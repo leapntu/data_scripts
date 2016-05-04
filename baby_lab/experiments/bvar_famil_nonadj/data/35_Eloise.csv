@@ -1,0 +1,14 @@
+subject, stim, rt, type
+35,5.p-roosa-j.wav~~19.p-chila-j.wav,43002.1898746,lookingFam
+35,19.p-chila-j.wav~~42.p-malsig-j.wav,64196.83218,lookingFam
+35,NA,138602.474928,totalPlaying-Fam
+35,4.untrained-test-trial.wav,20962.8009796,end_while_away
+35,4.trained-test-trial.wav,397.977113724,under2
+35,4.trained-test-trial.wav,12196.2590218,over2
+35,3.untrained-test-trial.wav,1242.86198616,under2
+35,3.untrained-test-trial.wav,13836.9269371,over2
+35,3.trained-test-trial.wav,19073.3699799,over2
+35,2.untrained-test-trial.wav,9462.05592155,over2
+35,2.trained-test-trial.wav,8915.20595551,over2
+35,1.untrained-test-trial.wav,1706.85386658,under2
+35,1.untrained-test-trial.wav,5750.32782555,over2

@@ -1,0 +1,15 @@
+subject, stim, rt, type
+26,1.v-nilbo-t.wav~~6.p-wadim-j.wav,14676.7530441,lookingFam
+26,29.v-loga-t.wav~~29.v-loga-t.wav,1938.6370182,lookingFam
+26,35.v-gensim-t.wav~~36.p-suleb-j.wav,1419.96002197,lookingFam
+26,42.p-wadim-j.wav~~44.p-balip-j.wav,4549.243927,lookingFam
+26,45.v-chila-t.wav~~47.v-malsig-t.wav,5084.12408829,lookingFam
+26,NA,138941.163063,totalPlaying-Fam
+26,4.trained-test-trial.wav,7544.39592361,over2
+26,3.trained-test-trial.wav,7007.23099709,over2
+26,2.trained-test-trial.wav,1954.85901833,under2
+26,2.trained-test-trial.wav,8019.26112175,over2
+26,1.trained-test-trial.wav,3311.12003326,over2
+26,4.untrained-test-trial.wav,5210.62517166,over2
+26,2.untrained-test-trial.wav,2825.81496239,over2
+26,1.untrained-test-trial.wav,6438.43984604,over2

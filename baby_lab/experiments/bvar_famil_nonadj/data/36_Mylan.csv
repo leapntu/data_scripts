@@ -1,0 +1,18 @@
+subject, stim, rt, type
+36,5.v-coomo-t.wav~~9.v-kicey-t.wav,11467.2510624,lookingFam
+36,10.p-nilbo-j.wav~~12.p-chila-j.wav,4441.16806984,lookingFam
+36,12.p-chila-j.wav~~13.v-kicey-t.wav,1951.93815231,lookingFam
+36,20.p-suleb-j.wav~~20.p-suleb-j.wav,447.424888611,lookingFam
+36,23.v-suleb-t.wav~~28.p-roosa-j.wav,14184.5841408,lookingFam
+36,30.p-malsig-j.wav~~31.v-coomo-t.wav,2087.9278183,lookingFam
+36,36.p-suleb-j.wav~~36.p-suleb-j.wav,894.781112671,lookingFam
+36,NA,138525.477171,totalPlaying-Fam
+36,3.trained-test-trial.wav,6744.39907074,over2
+36,3.untrained-test-trial.wav,5269.42491531,over2
+36,1.untrained-test-trial.wav,2932.97505379,over2
+36,1.trained-test-trial.wav,464.18595314,under2
+36,1.trained-test-trial.wav,13787.4610424,over2
+36,4.trained-test-trial.wav,1060.6470108,under2
+36,4.trained-test-trial.wav,6827.0740509,over2
+36,2.untrained-test-trial.wav,3115.24105072,over2
+36,2.trained-test-trial.wav,7125.62179565,over2

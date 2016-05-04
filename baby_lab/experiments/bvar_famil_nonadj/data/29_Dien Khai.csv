@@ -1,0 +1,21 @@
+subject, stim, rt, type
+29,4.p-wadim-j.wav~~4.p-wadim-j.wav,1118.60990524,lookingFam
+29,4.p-wadim-j.wav~~6.p-gensim-j.wav,3939.94307518,lookingFam
+29,8.v-nilbo-t.wav~~11.p-chila-j.wav,10718.4369564,lookingFam
+29,14.v-roosa-t.wav~~15.p-nilbo-j.wav,2550.97007751,lookingFam
+29,16.p-suleb-j.wav~~16.p-suleb-j.wav,400.698900223,lookingFam
+29,17.v-loga-t.wav~~19.p-chila-j.wav,3789.70003128,lookingFam
+29,20.p-nilbo-j.wav~~21.p-fengle-j.wav,3977.03385353,lookingFam
+29,22.v-kicey-t.wav~~29.v-coomo-t.wav,20919.5549488,lookingFam
+29,31.p-fengle-j.wav~~38.v-gensim-t.wav,18848.9661217,lookingFam
+29,41.p-loga-j.wav~~44.v-fengle-t.wav,7730.1440239,lookingFam
+29,NA,138635.140181,totalPlaying-Fam
+29,3.trained-test-trial.wav,1799.81517792,under2
+29,3.trained-test-trial.wav,14090.7239914,over2
+29,1.trained-test-trial.wav,6711.45200729,over2
+29,2.trained-test-trial.wav,21817.1460629,full_look
+29,2.untrained-test-trial.wav,4674.54385757,over2
+29,3.untrained-test-trial.wav,8918.67804527,over2
+29,4.trained-test-trial.wav,1452.43287086,under2
+29,4.trained-test-trial.wav,6023.58484268,over2
+29,1.untrained-test-trial.wav,21823.7760067,full_look
