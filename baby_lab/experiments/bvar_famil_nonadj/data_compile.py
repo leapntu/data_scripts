@@ -29,6 +29,7 @@ def read_file(file_name):
               })
 
 def raw_to_full(subject_num, data, df):
+    test_record = [ (stim, float(rt), data_type) for stim, rt, data_type in data["stimuli_record"] if data_type in ["over2", "full_look", "end_while_away"]]
     train_looking = sum([ rt for stim, rt, in data['fam_record'] ])
     train_away = data['total_fam'] - train_looking
     train_looking_prop = train_looking / data['total_fam'] 
@@ -37,15 +38,16 @@ def raw_to_full(subject_num, data, df):
     stats = {}
     for stim_name, rt, stim_type in data["stimuli_record"]:
       stats[stim_name] = [0,0] #[looking time , away time]
-    for stim_name, rt, stim_type in data["stimuli_record"]:
-      if stim_type in ["over2", "end_while_away", "full_look"]:
+    for stim_name, rt, stim_type in test_record:
         stats[stim_name][0] += rt
         if stim_type == "over2":
           stats[stim_name][1] += 2000
         if stim_type == "end_while_away":
           stats[stim_name][1] += 21800 - rt
-      if stim_type == "under2":
-        stats[stim_name][1] += rt
+        intermediates = [ (name, rt, kind) for name, rt, kind in data["stimuli_record"] if name == stim_name and kind == "under2"]
+        for name, rt, kind in intermediates:
+          stats[stim_name][0] -= rt
+          stats[stim_name][1] += rt
     for stim_name, rt, stim_type in [ (stim, float(rt), data_type) for stim, rt, data_type in data["stimuli_record"] if data_type in ["over2", "full_look", "end_while_away"]]:
       file_id = stim_name.split('-')[0]
       file_type = file_id.split('.')[1]

@@ -27,5 +27,6 @@ def sum_periods(start_index, stop_index, look_record):
   return (looking, away)
 
 looking, away = sum_periods(0, len(look_record)-1, look_record)
+print "____"+file_name+"____"
 print "LOOKING: ", looking
 print "AWAY: ", away
